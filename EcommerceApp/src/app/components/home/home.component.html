@@ -1,0 +1,134 @@
+<app-navbar></app-navbar>
+<div class="container-fluid p-0">
+
+  <!-- 🔥 HERO SECTION -->
+  <div class="row align-items-center bg-light p-5">
+
+    <!-- Hero Text -->
+    <div class="col-md-6">
+      <h1 class="fw-bold display-5">
+        Welcome to MyShop 🛒
+      </h1>
+      <p class="lead mt-3">
+        Discover amazing products at the best prices.
+        Shop smart. Shop fast. Shop easy.
+      </p>
+
+      <a routerLink="/register" class="btn btn-success btn-lg mt-3 me-2">
+        Get Started
+      </a>
+    </div>
+
+    <!-- Hero Image -->
+    <div class="col-md-6 text-center">
+      <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f"
+           class="img-fluid rounded shadow"
+           alt="shopping">
+    </div>
+
+  </div>
+
+ <div id="productCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1"></button>
+  </div>
+
+  <div class="carousel-inner bg-white p-4 shadow-sm">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>Smart Phone</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://nestasia.in/cdn/shop/files/LunchBags_1.jpg?v=1707367479" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>Lunch Bags</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>Gift Box</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>Laptop</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://rukminim2.flixcart.com/image/1280/1280/xif0q/watch/n/q/8/1-iw011-j16-sil-blk-sfr-talgo-boys-original-imahha4wjfvevn2f.jpeg?q=90" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>Watch</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://ptron.in/cdn/shop/products/51Bi92jvyDL._SL1100_dcef607a-aebf-41b0-b229-31112f9de40b_637x.jpg?v=1632975491" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>Headphones</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://www.premierkitchen.in/wp-content/uploads/2024/10/ERC-NEW-COLOR.jpg" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>Cookware</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="https://www.satvikworld.com/cdn/shop/products/a_71_720x.jpg?v=1691154253" class="card-img-top">
+            <div class="card-body text-center">
+              <h6>Gift Items</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
+  </button>
+
+</div>
