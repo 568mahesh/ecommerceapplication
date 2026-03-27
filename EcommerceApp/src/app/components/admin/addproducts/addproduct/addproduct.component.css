@@ -1,0 +1,70 @@
+.add-product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  background: #f5f7fa;
+  padding: 20px;
+}
+
+.add-product-card {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+}
+
+.add-product-card .card-header {
+  background: linear-gradient(90deg, #6f42c1, #9b59b6);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 20px 0;
+  border-bottom: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.add-product-card .card-body {
+  padding: 25px 20px;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.form-control:focus {
+  border-color: #6f42c1;
+  box-shadow: 0 0 5px rgba(111, 66, 193, 0.3);
+  outline: none;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #6f42c1, #9b59b6);
+  border: none;
+  color: white;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(111, 66, 193, 0.4);
+}

@@ -1,0 +1,15 @@
+<div class="container mt-4">
+  <h3>Products Added</h3>
+  <div class="row">
+    <div class="col-md-3 mb-3" *ngFor="let p of products">
+      <div class="card p-2">
+        <img [src]="'data:image/jpeg;base64,' + p.imageUrl" class="card-img-top" height="150">
+        <div class="card-body text-center">
+          <h6>{{p.name}}</h6>
+          <p>{{p.category}}</p>
+          <p class="text-success">₹{{p.price}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
